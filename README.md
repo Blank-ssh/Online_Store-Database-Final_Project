@@ -137,9 +137,9 @@ CREATE TABLE Payments (
 
 ---
 
-## **Sample SQL Queries**
+## **Queries for the database**
 
-### 1. **Retrieve All Products in a Specific Category**
+### 1. **Retrieve all products in a specific category**
 
 This query retrieves all products belonging to a specific category "electronics" for example.
 
@@ -150,7 +150,7 @@ INNER JOIN Categories c ON p.categoryId = c.id
 WHERE c.name = 'Electronics';
 ```
 
-### 2. **Retrieve All Orders for a Specific Customer**
+### 2. **Retrieve all orders for a specific customer**
 
 This query retrieves all orders placed by a customer with a specific email address.
 
@@ -161,7 +161,7 @@ INNER JOIN Customers c ON o.customerId = c.id
 WHERE c.email = 'customer@example.com';
 ```
 
-### 3. **Retrieve All Products in a Specific Order**
+### 3. **Retrieve all products in a specific order**
 
 This query lists all products, their quantities, and unit prices for a given order.
 
@@ -172,7 +172,7 @@ INNER JOIN Products p ON oi.productId = p.id
 WHERE oi.orderId = 1;
 ```
 
-### 4. **Calculate Total Amount Spent by a Customer**
+### 4. **Calculate total amount spent by a customer**
 
 This query calculates the total amount a specific customer has spent across all their orders.
 
@@ -183,7 +183,7 @@ INNER JOIN Customers c ON o.customerId = c.id
 WHERE c.email = 'customer@example.com';
 ```
 
-### 5. **List All Payments for a Specific Order**
+### 5. **List all payments for a specific order**
 
 This query retrieves all payment details for a given order.
 
@@ -195,7 +195,7 @@ WHERE p.orderId = 1;
 
 ---
 
-## **How to Use This Database**
+## **How to use this database**
 
 1. Set up a PostgreSQL instance or LibreOffice Base.
 2. Create the database schema by running the provided SQL commands.

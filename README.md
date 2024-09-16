@@ -6,13 +6,13 @@ This project is an implementation of an online store database designed to manage
 
 The database consists of seven main tables :
 
-1. **Customers**: Stores customer information.
-2. **Categories**: Groups products by type (electronics, books, sport and others).
-3. **Products**: Stores items available for purchase.
-4. **ShippingAddresses**: Stores addresses for shipping orders.
-5. **Orders**: Stores customer orders.
-6. **OrderItems**: Links products with orders.
-7. **Payments**: Stores payments made for orders.
+1. **Customers** : Stores customer information.
+2. **Categories** : Groups products by type (electronics, books, sport and others).
+3. **Products** : Stores items available for purchase.
+4. **ShippingAddresses** : Stores addresses for shipping orders.
+5. **Orders** : Stores customer orders.
+6. **OrderItems** : Links products with orders.
+7. **Payments** : Stores payments made for orders.
 
 ### **Entity-Relationship Diagram (ERD)**
 
